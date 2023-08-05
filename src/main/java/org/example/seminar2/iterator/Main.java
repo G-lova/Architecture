@@ -1,4 +1,4 @@
-package org.example.seminar2;
+package org.example.seminar2.iterator;
 
 public class Main {
     public static void main(String[] args) {

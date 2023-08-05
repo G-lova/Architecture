@@ -1,4 +1,4 @@
-package org.example.seminar2;
+package org.example.seminar2.iterator;
 
 public interface GBList<T> extends Iterable<T> {
     void addFirst(T t);

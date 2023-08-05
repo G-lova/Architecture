@@ -1,4 +1,4 @@
-package org.example.seminar2;
+package org.example.seminar2.iterator;
 
 public class GBNode<T> {
     T item;
