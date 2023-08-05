@@ -1,8 +1,10 @@
-package org.example.modelElements;
+package org.example.seminar1.modelElements;
 
-public class Camera {
+public class Flash {
     public Point3D location;
     public Angle3D angle;
+    public Color color;
+    public Float power;
 
     public void rotate(Angle3D angle) {
         System.out.println("вращение");

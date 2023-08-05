@@ -1,9 +1,9 @@
-package org.example.inMemoryModel;
+package org.example.seminar1.inMemoryModel;
 
-import org.example.modelElements.Camera;
-import org.example.modelElements.Flash;
-import org.example.modelElements.Scene;
-import org.example.modelElements.PoligonalModel;
+import org.example.seminar1.modelElements.Camera;
+import org.example.seminar1.modelElements.Flash;
+import org.example.seminar1.modelElements.Scene;
+import org.example.seminar1.modelElements.PoligonalModel;
 
 public class ModelStore implements IModelChanger, IModelCahangedObserver {
 

@@ -1,4 +1,4 @@
-package org.example.modelElements;
+package org.example.seminar1.modelElements;
 
 public class PoligonalModel {
     public Poligon poligons;

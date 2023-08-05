@@ -1,4 +1,4 @@
-package org.example.inMemoryModel;
+package org.example.seminar1.inMemoryModel;
 
 public interface IModelCahangedObserver {
     public static void applyUpdateModel(){
