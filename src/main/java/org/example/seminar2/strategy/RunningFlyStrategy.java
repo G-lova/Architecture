@@ -1,5 +1,6 @@
 package org.example.seminar2.strategy;
 
+// переопределение стратегии бегающих птиц
 public class RunningFlyStrategy implements FlyStrategy {
 
     @Override

@@ -8,8 +8,8 @@ public class Main {
         Birds chicken = new Chicken();
         Birds penguin = new Penguin();
 
-        eagle.fill();
-        chicken.fill();
-        penguin.fill();
+        eagle.fly();
+        chicken.fly();
+        penguin.fly();
     }
 }

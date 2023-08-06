@@ -2,19 +2,19 @@ package org.example.seminar2.state;
 
 public class Context implements State {
 
-    private State tvState;
+    private State State;
 
     public void setState(State state) {
-        this.tvState = state;
+        this.State = state;
     }
 
     public State getState() {
-        return this.tvState;
+        return this.State;
     }
 
     @Override
     public void doAction() {
-        this.tvState.doAction();
+        this.State.doAction();
     }
 
 }

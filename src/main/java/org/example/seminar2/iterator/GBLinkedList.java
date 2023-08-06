@@ -2,6 +2,7 @@ package org.example.seminar2.iterator;
 
 import java.util.Iterator;
 
+// создание списка элементов на основе нод
 public class GBLinkedList<T> implements GBList<T> {
 
     int size = 0;

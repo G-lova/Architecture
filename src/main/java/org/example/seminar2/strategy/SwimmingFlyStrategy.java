@@ -1,4 +1,5 @@
 package org.example.seminar2.strategy;
+// переопределение стратегии водоплавающих птиц
 
 public class SwimmingFlyStrategy implements FlyStrategy {
 

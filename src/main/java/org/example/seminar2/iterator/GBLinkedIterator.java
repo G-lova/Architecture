@@ -10,11 +10,13 @@ public class GBLinkedIterator<T> implements Iterator<T> {
         this.element = element;
     }
 
+    // проверка существования следующего элемента списка
     @Override
     public boolean hasNext() {
         return element != null;
     }
 
+    // переход к следующему элементу списка
     @Override
     public T next() {
         T out = element.item;

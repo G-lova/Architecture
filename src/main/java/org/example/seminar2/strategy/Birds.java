@@ -1,5 +1,6 @@
 package org.example.seminar2.strategy;
 
+// описание общего поведения птиц
 public class Birds {
 
     private FlyStrategy flyStrategy;
@@ -8,15 +9,15 @@ public class Birds {
         this.flyStrategy = flyStrategy;
     }
 
-    public void fill() {
+    public void fly() {
         this.flyStrategy.fly();
     }
 
-    public void gas() {
-        System.out.println("Едем вперед");
+    public void speak() {
+        System.out.println("Издает звуки");
     }
 
-    public void stop() {
-        System.out.println("Тормозим!");
+    public void eat() {
+        System.out.println("Ест");
     }
 }

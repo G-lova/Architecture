@@ -1,4 +1,5 @@
 package org.example.seminar2.state;
+// описание выключенного состояния
 
 public class StopState implements State {
 
